@@ -1,2 +1,2 @@
 # programacion4
-repo compartido 
+repo compartido para agregar: ejercicios - apuntes - anotaciones 
