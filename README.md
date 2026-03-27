@@ -1,12 +1,10 @@
-# programacion4
+# PROGRAMACION 2026 💋
 repo compartido para agregar: ejercicios - apuntes - anotaciones 
 ![horariosooo](https://github.com/user-attachments/assets/2fe3eab2-4c34-4c60-800d-01d5d46482cb)
 
 información importante: 
 ----
-FERIADOS DEL AÑO :
-📅 Feriados 2026 (desde el 27 de marzo)
-A continuación, se listan los feriados nacionales y días no laborables académicos programados:
+FERIADOS DEL AÑO :📅 
 
 02, 03, 04 y 05 de abril (jueves a domingo): Semana Santa.
 
@@ -40,7 +38,7 @@ A continuación, se listan los feriados nacionales y días no laborables académ
 
 ---
 
-Turno	- Llamado	- Fecha	- Día
+Turno	- Llamado	- Fecha	- Día 📆
 
 Mayo	- Único	- 28 de mayo	- Jueves
 
