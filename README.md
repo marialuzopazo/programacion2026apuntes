@@ -1,6 +1,8 @@
 # PROGRAMACION 2026 💋
 repo compartido para agregar: ejercicios - apuntes - anotaciones 
-![horariosooo](https://github.com/user-attachments/assets/2fe3eab2-4c34-4c60-800d-01d5d46482cb)
+---
+<img width="789" height="249" alt="image" src="https://github.com/user-attachments/assets/0241e5d7-7ea2-4102-90cc-424faf663321" />
+---
 
 información importante: 
 ----
