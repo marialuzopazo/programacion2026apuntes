@@ -1,3 +1,12 @@
+## fechas de parciales ESTIMADAS 
+
+- 11 al 22 de mayo es el primer parcial
+- julio de 6 al 10 el globalizador
+- la defensa del tp, tambien el 8 9 de julio
+- y entre el 29 de junio al 3 de julio  
+---
+
+
 carpeta apuntes y ejercicios de programacion4
 
 # videos variados para refrescar contenidos de programacion 2 y 3 
