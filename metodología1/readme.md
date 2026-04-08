@@ -197,12 +197,136 @@ es el proceso de revertir un sistema, aplicación o base de datos, a un estado e
 mecanismo de seguridad, asegurando la integridad de los datos y minimizand el tiempo de inactividad. 
 
 
+---
+Clase 4 - REQUERIMIENTOS 
+---
+
+REQUERIMIENTOS:
+nos enfocamos que cosas necesita el cliente 
+como lo obtenemos 
+como lo documentamos para que el equipo pueda construirlo ?
+
+"la mayor parte de los problemas empiezan por aca"
+
+- funciones que datos de entrada y de salida y que va a procesar 
+- todo lo que se pueda ver y tocar es un requerimiento funcional 
+
+/cargar un medico - revisar los usuarios y verificar los usuarios - agendar los turnos 
+/ que se repeten las reglas del negocio ( horarios y verificaciones de feriados, etc ) 
+/ no poder sacar sobre turnos - notificaciones del sistema y del usuario 
 
 
+un requerimiento NO DESCRIBE como lo hace internamente eso es diseño, describe que hace desde la perspectiva del usuario 
 
 
+-feature: 	FUNCIONALIDAD ( una accion se que se puede aislar )
 
+Es una unidad, a menudo aislable, como una barra de búsqueda, la autenticación de usuarios o un botonn para activar el modo oscuro. 
 
+funcionalidad es una capacidad del sistema de alto nivel como la gestión de turnos
+es la descomposición de esa funcionalidad en comportamientos específicos, concretos y verificables 
+la diferencia importa porque una funcionalidad no se puede probar directamente, un requerimiento funcional si. 
+
+en el caso de la app // gestión de turnos, gestión de pacientes y las notificaciones 
+
+requerimientos NO FUNCIONALES : 
+
+son parte del sistema
+la seguridad, la rapidez, que sea escalable, que se pueda usar por muchos usuarios, etc 
+son algunos de los requerimientos que hacen a los no funcionales. 
+
+los requerimientos NO FUNCIONALES son tan importantes como los funcionales
+frecuentemente se omiten o se escriben de forma vaga. 
+
+no alcanza con querer que el sistema sea rápido, tenemos que medirlo y cuantificarlo. 
+
+<img width="797" height="528" alt="image" src="https://github.com/user-attachments/assets/639095a9-ac75-4853-84a1-9fbef9a4692e" />
+
+---
+Requerimientos de usuario vs de sistema
+---
+
+# DE USUARIO: 
+
+el recepcionista debe poder registrar un nuevo turno
+el paciente debe poder cancelar su turno 
+el medico debe poder ver su agenda 
+
+# de sistema 
+
+el sistema debe validad que la fecha y hora de turno no coincida con otro turno existente para el mismo medico antes de confirmar 
+el sistema debe permitir la cancelacion de un turno hasta 2 horas antes de la hora asignada.
+el sistema debe mostrar los turnos del dia ordenados por hora, por nombre del paciente, motivo de consulta
+
+** importante **
+
+los requerimientos de usuario estan escritos en lenguaje de negocio 
+
+los requisitos del sistema son tecnicos y especificos.
+el cliente tiene que confirmar que el comportamiento descrito es el que realmente se necesita. 
+
+---
+Como se escriben los requerimientos bien definidos ?
+---
+
+debe ser especifico, alcanzable, definido, claro, evitar ambiguedades, escalable y medible ( CUANTOS USUARIOS, CUANTO TIEMPO ETC ) 
+
+- debe estar claro quien realiza la acciones ( el usuario o el sistema )
+- verbos precisos: debe, no debería ni podria
+- condiciones especificas: bajo que circunstancias
+- criterio verificable: como sabemos que esta cumplido
+
+ejemplo: 
+MAL ESCRITO: 
+el sistema debe ser rapido 
+
+BIEN ESCRITO: 
+el sistema debe responder en menos de 2 segundos con hasta 100 usuarios simultaneos. 
+
+---
+tecnicas de relevamiento: entrevistas
+---
+
+entrevistas, escuchar y tomar notas - se graba o se escribe tal cual lo que pide el cliente.
+conversacion estructurada entre el analista y uno o mas del stakeholders con el objetivo de obtener informacion sobre necesidades, procesos y restricciones. 
+
+- regla de documentar textualmente durante la entrevista
+- regla: lo que el cliente dijo exactamente y lo que el analista entendio pueden ser cosas distintas
+- reglas: si el analista que interpreta en tiempo real, puede ser que este introduciendo sus propios supuestos en el registro.
+
+# TIPOS DE ENTREVISTAS: ( estructurada y semi estructurada ) 
+
+ESTRUCTURADA: el analista tiene un listado de preguntas predefinidas util cuando el tiempo es limitado o el stakeholder es dificil de acceder. 
+SEMI ESTRUCTURADA: el analista tiene un guion base pero permite que la conversacion derive hacia temas no anticipados, util para descubrir requerimientos implicitos
+
+REGLAS PRACTICAS PARA LAS ENTREVISTAS: entrevistas al usuario final, no solo al cliente que paga o gestiona el proyecto 
+preguntar por el proceso actual antes de hablar del sistema nuevo ( QUE COSAS HACEN HOY Y COMO SE HACEN PARA SABER COMO MEJORAR Y CUAL ES EL COMPORTAMIENTO ) 
+documentar textualmente, no interpretar durante la entrevista. 
+
+---
+TECNICAS DE RELEVANIENTO: observaciones directas y talleres conjuntos 
+---
+
+- observacion directa, se va al lugar y se ve como trabajan.
+- talleres conjunto, reuniones en grupo.
+
+---
+PROTOTIPADO
+---
+
+prototipado de baja fidelidad y prototipado de alta fidelidad 
+
+de baja fidelidad: bocetos en papel y wireframes simples sin funcionalidad // se usa para validar requisitos.
+de alta fidelidad: maqueta interactica que simula la experiencia real del sistema
+
+el valor real del proptotipado es que hace visible lo que las palabras no pueden describir con precision 
+un cliente puede tener dificultad para expresar como quiere que se vea una pantalla, pero cuando se le muestra un boceto puede decir imediatamente cosas como : 
+esto es lo que necesito, falta este dato...
+esa retroalimentacion temprana es mucho mas barata que descubrirlo durante el testint o despues del despliegue
+
+el PROTOTIPADO ES UNA herramienta de comunicacion y validacion. 
+
+https://vercel.com/    probamos con esta aplicacion 
 
 
 
