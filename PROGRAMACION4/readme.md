@@ -101,3 +101,6 @@ Función de JS que retorna JSX. Hoy es el estándar.
 sobre use reducer:
 Un reducer ayuda a mantener los controladores de eventos cortos y concisos. Sin embargo, a medida que tu aplicación crece, puedes encontrarte con otra dificultad. Actualmente, el estado tasks y la función dispatch sólo están disponibles en el componente de nivel superior TaskApp. Para permitir que otros componentes lean la lista de tareas o la modifiquen, tienes que pasar explícitamente el estado actual y los controladores de eventos que lo cambian como props.
 
+<img width="1308" height="713" alt="image" src="https://github.com/user-attachments/assets/5f9ec5c7-d9d4-47ae-9ffa-7a096860c2d2" />
+
+
