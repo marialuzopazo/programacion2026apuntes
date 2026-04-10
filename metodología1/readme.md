@@ -387,6 +387,36 @@ LOS CASOS DE USO Y LAS HISTORIAS DE USUARIO SON HERRAMIENTAS COMPLEMENTARIAS
 
 <img width="706" height="316" alt="image" src="https://github.com/user-attachments/assets/21049b67-1cfc-49bd-8d9e-84abff5c5397" /> 
 
+Hay que documentar no solo el flujo exitoso sino tambien las variaciones y los errores. 
+
+ejemplo: somos el paciente y estamos registrados, buscamos el medico, elegimos el turno, reservamos el disponible y que reciba la notificacion o confirmacion del mismo. lo que puede salir mal , que el sistema se caiga, que la informacion este guardada, que no esten los turnos disponibles y no este marcado, que no aparezca el doctor y que no pueda seleccionar y darle una notificacion diciendole que vuelva al inicio para que vuelva a elegir. 
+
+<img width="806" height="368" alt="image" src="https://github.com/user-attachments/assets/39209660-1523-42d3-9830-756d3f875d61" /> 
+
+# historia de usuario vs el caso de uso 
+
+- la perspectiva de usuario y la perspectiva del siste,a
+- pocos detalles tecnicos, muy detallado 
+- formato conversacional , formato formal y estructurado 
+- no incluye excepciones, incluye excepciones 
+- ideal para metodologias agiles , ideal para metodologias tradicionales o dentro de sistema criticos 
+- centrada en el calor al usuario, centrado en cubrir todos los flujos posibles.
+
+# VALICACION DE REQUERIMIENTOS 
+
+como sabemos que los requerimientos estan bien antes de diseñar ? 
+
+### revision estructurada: 
+- El analista y al menos otro miembro del equipo recorren el documento de requerimientos liena por liena buscando ambiguedades, contradicciones e imcompletitudes. se documenta cada problema encontrado y se resuelve antes de avanzar.
+
+### presentacion al cliente:
+- el analista presenta los requerimientos al cliente y los usuarios finales en lenguaje accesible. el objetivo es confirmar que la traduccion del problema original al documento de requerimientos es correcta
+
+### prototipo de validacion: 
+- se construye un prototitpo de baja o alta fidelidad y se lo presenta al cliente para confirmar que el comportamiento esperado del sistema coincide con los documentado. es la tecnica mas efectiva para detectar los requerimientos que estan implicitos.
+
+<img width="819" height="327" alt="image" src="https://github.com/user-attachments/assets/138733a4-55e7-4bc4-aded-91cc2c761797" />
+
 
 
 
