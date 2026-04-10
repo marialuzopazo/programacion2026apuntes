@@ -417,13 +417,37 @@ como sabemos que los requerimientos estan bien antes de diseñar ?
 
 <img width="819" height="327" alt="image" src="https://github.com/user-attachments/assets/138733a4-55e7-4bc4-aded-91cc2c761797" />
 
+ejercictacion 
+* sacar turnos por whatsapp / el paciente puede seleccionar especialidad, medico, fecha y hora con un bot 
+* cancelat turno / el paciente puede cancelar un turno existente desde el whatsapp 
+* gestion de medicos/ el sistema permite agregar nuevos medicos con sus especialidades y disponibilidad horaria
+* deshboard o panel de administrador / el administrador puede ver un panel con los turnos atendidos por dia cenlados y el medico con mayor demanda
 
+requerimientos NO FUNCIONALES: 
+la disponibilidad para reservar los turnos por whatsapp con el bot las 24 hs y la seguridad de los datos del paciente 
 
+Historia de usuario 1 : 
+como paciente quiero sacar mis turnos por whatsapp para no tener que llamar o acermarme a la clinica 
 
+criterio de aceptacion:
+el paciente puede elegir especialidad y medico, el sistema muestra horarios disponibles, se confirma el turno con fecha hora y nombre del medico. 
 
+Historia de usuario 2: 
+como administrador quiero ver cuantos turnos se atendieron y cuales se cancelaron por dia, para tomar decisiones de gestion y horarios 
 
+criterio de aceptacion: 
+el panel muestra turnos atendidos y cancelados fultradosd por dia 
+se identifica que medico tiene mayor demanda 
 
+caso de uso " sacar turno por whatsapp"
+actor es el paciente 
+el usuario escribe al whatsapp, el bot saluda y solicita la especialidad, el paciente elije la especialidad, el bot, muestra los medicos disponibles el paciente elige el medico, el bot le muestra los horarios y las fechas vigentes. el paciente selecciona la fehca y la hora el sistema registra ese turno y envia la confirmacion . 
 
+FLUJO ALTERNATIVO no si no hay turnos disponibles, el bot ofrece otra fehca u otro medico. 
+el turno queda registrado y el paciente recibe su notificacion de confirmacion 
+
+REQUERIMIENTOS IMPLICITOS:  el sistema tiene que poder identificar al paciente por loe menos con un dni
+el sistema tiene que filtrar o controlar que los turnos no esten ocupados...
 
 
 
