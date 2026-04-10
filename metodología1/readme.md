@@ -196,6 +196,17 @@ REVERSION de cambios (rollback)
 es el proceso de revertir un sistema, aplicación o base de datos, a un estado estable anterior después de una implementación fallida o un erro, sirve como 
 mecanismo de seguridad, asegurando la integridad de los datos y minimizand el tiempo de inactividad. 
 
+de baja fidelidad: bocetos en papel y wireframes simples sin funcionalidad // se usa para validar requisitos.
+de alta fidelidad: maqueta interactica que simula la experiencia real del sistema
+
+el valor real del proptotipado es que hace visible lo que las palabras no pueden describir con precision 
+un cliente puede tener dificultad para expresar como quiere que se vea una pantalla, pero cuando se le muestra un boceto puede decir imediatamente cosas como : 
+esto es lo que necesito, falta este dato...
+esa retroalimentacion temprana es mucho mas barata que descubrirlo durante el testint o despues del despliegue
+
+el PROTOTIPADO ES UNA herramienta de comunicacion y validacion. 
+
+https://vercel.com/    probamos con esta aplicacion 
 
 ---
 Clase 4 - REQUERIMIENTOS 
@@ -382,17 +393,7 @@ LOS CASOS DE USO Y LAS HISTORIAS DE USUARIO SON HERRAMIENTAS COMPLEMENTARIAS
 
 
 
-de baja fidelidad: bocetos en papel y wireframes simples sin funcionalidad // se usa para validar requisitos.
-de alta fidelidad: maqueta interactica que simula la experiencia real del sistema
 
-el valor real del proptotipado es que hace visible lo que las palabras no pueden describir con precision 
-un cliente puede tener dificultad para expresar como quiere que se vea una pantalla, pero cuando se le muestra un boceto puede decir imediatamente cosas como : 
-esto es lo que necesito, falta este dato...
-esa retroalimentacion temprana es mucho mas barata que descubrirlo durante el testint o despues del despliegue
-
-el PROTOTIPADO ES UNA herramienta de comunicacion y validacion. 
-
-https://vercel.com/    probamos con esta aplicacion 
 
 
 
