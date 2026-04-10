@@ -316,6 +316,72 @@ PROTOTIPADO
 
 prototipado de baja fidelidad y prototipado de alta fidelidad 
 
+---
+CLASE 5
+---
+
+# HISTORIAS DE USUARIO 
+
+el requerimiento desde la perspectiva del usuario 
+
+# QUE ES ?
+una descripcion corta y simple de una funcionalidad del sistema desde la perspectiva del usuario que la necesita 
+NO DESCRIBE como se implementa, describe que valor genera para quien 
+
+# PARA QUE SIRVE ?
+
+* poner el foco en el valor al usuario, no en la funcionalidad tecnica
+* facilita la conversacion entre el cliente y el equipo
+* ser la unidad basica de planificacion en metodologias agiles
+
+## ESTRUCTURA: como (rol ) - quiero (accion ) - para (valor-beneficio) 
+rol quien lo necesita quiero quien lo necesita y que quiere hacer valor, para que lo necesita ?
+
+## crtiterios de aceptacion 
+
+condiciones concretas y verificables que deben coumplir para considerar una historia de usuario correctamente implementada. son el contrato entre el equipo entre el equipo y el cliente sobre que significa "listo"
+
+ejemplo: 
+
+### HISTORIA DE USUARIO 
+
+- COMO recepcionista quiero registrar un nuevo turno para confirmar la atencion del paciente:
+
+### CRITERIOS DE ACEPTACION 
+
+- el sistema valida que el horario no este ocupado
+- el paciente recibe confirmacion por mensaje
+- el turno aparece en la agenda del medico
+
+ejercitacion en donde ponemos en practica las historias de usuario aplicadas al ejemplo de la app de turnos medicos 
+
+<img width="766" height="346" alt="image" src="https://github.com/user-attachments/assets/623164fa-30e8-4e06-af0f-884f88756c06" />
+
+# HAPPY PATH - flujo feliz 
+
+es el escenario ideal por defecto en el que un usuario completa una tarea con exito. sin encontrar errores, excepciones ni comportamientos esperados. representa el recorrido mas directo y libre de fricciones 
+
+# CASOS DE USO 
+
+el requerimiento desde la pespectiva del sistema 
+
+## que es ? 
+
+Es una descripcion detallada y estructurada de como el sistema responde a una accion de un actor externo 
+documenta no solo el flujo exitoso o happy path sino todas las variaciones y errores posibles 
+
+LOS CASOS DE USO Y LAS HISTORIAS DE USUARIO SON HERRAMIENTAS COMPLEMENTARIAS
+
+# estructura de los casos de uso 
+
+<img width="706" height="316" alt="image" src="https://github.com/user-attachments/assets/21049b67-1cfc-49bd-8d9e-84abff5c5397" /> 
+
+
+
+
+
+
+
 de baja fidelidad: bocetos en papel y wireframes simples sin funcionalidad // se usa para validar requisitos.
 de alta fidelidad: maqueta interactica que simula la experiencia real del sistema
 
