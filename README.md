@@ -8,10 +8,6 @@ información importante:
 ----
 FERIADOS DEL AÑO :📅 
 
-02, 03, 04 y 05 de abril (jueves a domingo): Semana Santa.
-
-02 de abril (jueves): Día del Veterano y de los Caídos en la Guerra de Malvinas.
-
 01 de mayo (viernes): Día del Trabajador.
 
 02 de mayo (sábado): Día del Docente tecnológico (feriado académico).
