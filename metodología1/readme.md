@@ -449,6 +449,77 @@ el turno queda registrado y el paciente recibe su notificacion de confirmacion
 REQUERIMIENTOS IMPLICITOS:  el sistema tiene que poder identificar al paciente por loe menos con un dni
 el sistema tiene que filtrar o controlar que los turnos no esten ocupados...
 
+---
+Clase del 17-04-2026
+Anotaciones 
+---
+
+diagrama de clases 
+Diagrama de Secuencia: concepto 
+
+un diagrama de secuencia que muestra como los objetos del sistema se comunica entre s{i a lo largo del tiempo para ejecutar un caso de uso especifico. 
+representa el comportamiento dinamico del sistema, no su estructura estatica. 
+
+# CONCEPTO: ( ELEMENTOS ) 
+
+Actor  --> el usuario o sistema externo que inicia la interaccion 
+Objeto ---> una instancia de una clase que participa en el flujo 
+Linea de vida ---> representa la existencia del objeto a lo largo del tiempo 
+mensaje sincronico ---> el emisor espera la respuesta antes de continuar 
+mensaje asincronico --->el emisor no espera respuesta y continua 
+respuesta ---> el valor que retorna un mensaje sincrono
+activacion ---> indica que el objeto esta procesando 
+
+### el tiempo avanza hacia abajo. los mensajes se leern de arriba hacia abajo de ejecucion 
+
+Diferencia entre sincrono y asincrono ( la diferencia reside en el tiempo de espera del resultado - ejemplo las colas para sacar entradas ) 
+
+un caso de uso tiene un solo actor. 
+
+el siagrama de secuencia se utiliza 1 por caso de uso ( no es para todo el sistema ) - ejemplo un caso de uso es sacar un turno 
+
+## Principios de diseño: MODULARIDAD
+
+por que importa ?
+
+- un modulo que falla no rompe el sistema completo
+- un modulo puede modificarse sin afectar a los demas
+- un modulo puede reutilizarse en otros contextos
+- el sistema es mas facil de entender porque cada parte tiene un proposito claro
+  
+# Principios de diseño: acoplamiento y cohesión
+
+### Acoplamiento:
+
+Es el grado de dependencia entre dos modulos o clases - cuando una clase necesita conocer los detalles internos de otra para funcionar, el acoplamiento es alto .
+CUANDO UNA CLASE necesita conocer los detalles internos de otra para funcionar, el acoplamiento es alto 
+
+cuando una clase solo necesita saber que hace otra sin importar como lo hace, el acoplamiento es bajo. 
+
+### Cohesión:
+
+es el grado en que las responsabilidades dentro de un modulo o clase estan relacionadas entre si. 
+cuando una clase tiene un unico proposito claro y todo lo que contiene contribuye a ese proposito, la cohesion es alta. 
+cuando una clase hace cosas que no tienen relacion entre si, la cohesion es baja. 
+
+##BUSCAMOS BAJO ACOPLAMIENTO Y ALTA COHESIÓN 
+
+- bajo acoplamiento---> minimiza las dependencias entre modulos.
+
+- Alta cohesion---> cada modulo o clase tiene un unico proposito bien definifo, todo lo que esta dentro de una clase esta relacionado entre si. 
+
+bajo acoplamiento significa que los modulos se conocen poco, y la alta cohesion significa que cada modulo hace una sola cosa. 
+
+
+##PREGUNTAS Para saber si estoy haciendo lo que debo: 
+
+- modularidad ---> cada clase tiene una responsabilidad clara y unica ?
+- bajo acoplamiento---> una clase puede modificarse sin afectar a las demas ?
+- alta cohesion ---> todo lo que esta dentro de una clase esta relacionado entre si ?
+
+Un buen diseño es aquel que puede cambiar una parte sin romper todo lo demas. 
+
+
 
 
 
