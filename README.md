@@ -1,6 +1,13 @@
 # PROGRAMACION 2026 💋
 repo compartido para agregar: ejercicios - apuntes - anotaciones 
 ---
+# FECHAS IMPORTANTES:
+- EXAMEN DE gestion de proyectos: mitad de mayo ( aun no hay fecha fija ) pero los temas segun cecchi son: estudio de factibilidad / pruebas de unidad / tecnicas de caja negra y blanca / mantenimiento
+- EXAMEN DE analisis de datos: 30 DE ABRIL  y el 26/06 se presentaría el tp integrador
+- EXAMEN PROGRAMACION 4 - 8 DE MAYO.
+- EXAMEN DE METODOLOGIA 2 ??? ---
+
+---
 <img width="789" height="249" alt="image" src="https://github.com/user-attachments/assets/0241e5d7-7ea2-4102-90cc-424faf663321" />
 ---
 
