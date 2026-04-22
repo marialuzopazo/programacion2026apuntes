@@ -502,7 +502,7 @@ es el grado en que las responsabilidades dentro de un modulo o clase estan relac
 cuando una clase tiene un unico proposito claro y todo lo que contiene contribuye a ese proposito, la cohesion es alta. 
 cuando una clase hace cosas que no tienen relacion entre si, la cohesion es baja. 
 
-##BUSCAMOS BAJO ACOPLAMIENTO Y ALTA COHESIÓN 
+## BUSCAMOS BAJO ACOPLAMIENTO Y ALTA COHESIÓN 
 
 - bajo acoplamiento---> minimiza las dependencias entre modulos.
 
@@ -518,6 +518,86 @@ bajo acoplamiento significa que los modulos se conocen poco, y la alta cohesion 
 - alta cohesion ---> todo lo que esta dentro de una clase esta relacionado entre si ?
 
 Un buen diseño es aquel que puede cambiar una parte sin romper todo lo demas. 
+
+---
+Clase del 22/04
+----
+## que es la arquitectura de software ?
+
+que es ?
+la estructura de alto nivel de un sistema, como se divide en grandes componentes, como esos componentes se comunican entre si y que principios guian esas decisiones. 
+
+por qué importa ?
+determina la escalabilidad, mantenibilidad, determina el costo 
+
+### una decision de arquitectura tomada en una reunion de horas puede condicionar el resultado y tiempo 
+
+# Estilos de arquitectura: 
+
+cliente - servidor, response/ request etc. 
+, monolito, microservicios.
+
+# estilos de arquitectura: Arquitectura multicapa 
+
+- capa de presentacion : frontend: html, css, js
+- capa logica de negocio: backend, net, node, java, etc.
+- capa de datos: bbss, mysql, mondgoDB, etc.
+
+### ventajas: 
+
+- cada capa tiene una responsabilidad clara
+- se puede cambiar una capa sin afectar las demas
+- facilita el trabajo en paralelo entre equipos
+- es el estandar de facto para aplicaciones web
+
+### Limitaciones:
+
+- puede ser mas lenta por las multiples capas
+- mas complea de configurar que cliente servidor simple
+- si la capa de logica falla, las otras dos quedan inutilizados
+- puede generar cuellos de botella en la capa de logica
+
+# Antipatrón ( antipattern ) 
+
+Es una solucion que se aplica de forma comun a un problema corriente. 
+es como usar un martillo para cualquier cosa. es usar una mala practica y la repito porque pareciera la correcta , no siempre es la solucion ideal. 
+
+# Arquitectura monolitica:
+
+el monolito es una cosa solida, que mantiene todo junto, el monolito no es un antipatron , es la arquitectura correcta para el momento correcto. 
+
+### Ventajas:
+
+- Simple de desarrollar
+- un solo proyecto
+- facil de debuggear
+- ideal para equipos pequeños
+
+### limitaciones:
+
+- a medida que crece se vuelve dificil de mantener
+- un bug puede hacer caer todo el sistema
+- escalar requiere duplicar todo el sistema
+- los deploys son lentos porque hay que redeployar todo
+
+# Arquitectura de microservicios 
+
+### VENTAJAS:
+
+- cada servicios escala de forma independiente
+- un servicio puede fallar sin hacer caer el sistema
+- equipos independientes por servicio
+- deploy independiente por servicio
+
+### limitaciones:
+
+- mucho mas completo de desarrollar y mantener
+- equiere infraestructura sofisticada
+- la comunicacion entre servicios agrega letnecia
+- debugging distribuidos es significativamente mas dificil.
+
+<img width="853" height="529" alt="image" src="https://github.com/user-attachments/assets/1ca05b87-fcc2-4dd8-8b71-9274e163094f" />
+
 
 
 
