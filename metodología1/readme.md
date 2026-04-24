@@ -470,6 +470,7 @@ mensaje asincronico --->el emisor no espera respuesta y continua
 respuesta ---> el valor que retorna un mensaje sincrono
 activacion ---> indica que el objeto esta procesando 
 
+
 ### el tiempo avanza hacia abajo. los mensajes se leern de arriba hacia abajo de ejecucion 
 
 Diferencia entre sincrono y asincrono ( la diferencia reside en el tiempo de espera del resultado - ejemplo las colas para sacar entradas ) 
@@ -598,6 +599,77 @@ el monolito es una cosa solida, que mantiene todo junto, el monolito no es un an
 
 <img width="853" height="529" alt="image" src="https://github.com/user-attachments/assets/1ca05b87-fcc2-4dd8-8b71-9274e163094f" />
 
+---
+Clase del 24/04
+---
+
+# Metodologias tradicionales 
+
+las metodologias son marcos de trabajo - estructura que dice que hacer que orden, como lo hacen, etc. 
+todavia se usa este sistema con cosas especificas como construccion de aviones, o armas. 
+
+la primera que se creo fue la Waterfall 
+el nombre "Waterfall" ( cascada) viene de la representacion grafica: las fases fluyen hacia abajo como cascada, una despues de la otra sin retroceso formal.
+### REGLA CENTRAL : cada fase debe completarse y aprobarse formalmente antes de einiciar la siguiene, no hay retrocesos sin un proceso o cambio formal.
+
+# ventajas: 
+estructura claray predecible, documentacin exhaustiva, facil de gestionar contractualmente, trazabilidad completa, ideal cuando los requerimientos son estables y bien definido
+
+# desventajas: 
+rigidez ante cambios, el cliente no ve el producto hasta el final, los errores de requerimiento se descubren tarde, asume que los requerimientos pueden conocerse comppletamente al inicio, el testing ocurre recien al final 
+
+# Cuando se usa ? 
+- Contratos gubernamentales y licitaciones publicas
+- software de seguridad critica
+- proyectos con requerimientos fijos
+- equipos distribuidos en multiples zonas horarias
+- proyectos de migracion tecnologica
+
+### regla practica: 
+Si el cliente puede firmar un documiento de requerimientos completo en la semana 1 y no va a cambiar de opinion. waterfall es una opcion valida.
+
+# Modelo V: verificacion en espejo 
+como primera evolucion, de waterfall, se realizan 
+- pruebas de aceptacion en requierimientos
+- prueba de sistema, diseño de arquitectura
+- pruebas de integracion en el diseño detallado. 
+- pruebas unitarias en la implementacion 
+
+## RUP : Proceso iteratvo formal 
+
+Es el proceso de desarrollo iterativo e incremental, a disferencia de waterfall que es secuencial. 
+ciclo circular, transicion, inciio, elaboracion, construccion 
+
+LAS 4 FASES DEL RUP:
+- inicio
+- elaboracion
+- construccion
+- transición.
+
+diferencia clave con waterfall: rup permite volver a fases anteriores dentro de una iteracion. los requerimientos pueden refinarse dirante la elaboracion y la construccion. ( desventaja, es el tiempo ) 
+
+# Documento tipicos: SRS ( software requirements Specification )
+
+Es el documento que formaliza que debe hacer el sistema 
+es el contrato entre el negocio y la empresa 
+con la introduccion, descripcion general, requerimientos funcionales y no funcionales. 
+
+ejemplo con la aplicacion medica * uptime o disponibilidad del 99% de tiempo Y PUEDE darte de baja el estado contractual
+# Documento tipico: SAD 
+es el documento de las decisiones arquitectonicas del sistema. es el artefacto de la fase de diseño en metodologias tradicionales. 
+DOCUMENTA: 
+- la arquitectura elegida
+- los componentes principales
+- las interfaces
+- Tooda la documentacion
+
+MERCADO PAGO PROYECTO API 
+https://www.mercadopago.com.ar/developers/es
+
+Proceso formal para cambios: CHANGE REQUEST en un waterfall sin este documento NO se pueden hacer modificaciones.
+
+
+  
 
 
 
