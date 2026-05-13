@@ -668,6 +668,25 @@ https://www.mercadopago.com.ar/developers/es
 
 Proceso formal para cambios: CHANGE REQUEST en un waterfall sin este documento NO se pueden hacer modificaciones.
 
+---------
+# clase del 13/05/26
+
+# Metodologías Agiles:
+---
+- 4 valores y 12 principios basicos
+
+## los 4 valores del manifiesto agil:
+
+- individuos e interacciones por sobre procesos y herramientas
+- colaboracion con el cliente por sobre la negociacion contractual
+- respuesta al cambio por sobre seguir un plan
+- software funcionando por sobre la documentación exhaustiva
+
+
+
+
+
+
 
   
 
